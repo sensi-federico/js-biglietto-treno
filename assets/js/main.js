@@ -20,8 +20,7 @@ priceText.innerHTML = ticketPriceStamp;
 
 // va applicato uno sconto del 20% per i minorenni
 // va applicato uno sconto del 40% per gli over 65.
-let discount20
-let discount40
+let discount
 
 if (userAge < 18) {
     let discount = ticketPrice * 20 / 100;
